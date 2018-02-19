@@ -4,7 +4,7 @@
       "label":"Editor di Video interattivo",
       "fields":[
         {
-          "label":"Carica/incorpora video",
+          "label":"Carica video",
           "fields":[
             {
               "label":"Aggiungi un video",
@@ -22,7 +22,7 @@
                   "label":"Nascondi il titolo nella schermata iniziale del video"
                 },
                 {
-                  "label":"Breve descrizione (facoltativa)",
+                  "label":"Breve descrizione",
                   "description":"Facoltativo. Visualizza un breve testo di descrizione sulla schermata iniziale del video. Non funziona per i video di YouTube."
                 },
                 {
@@ -46,7 +46,7 @@
                     "fields":[
                       {
                         "label":"Etichetta della traccia",
-                        "description":"Utilizzato se si offrono tracce multiple e l'utente deve sceglierne una. Per esempio, 'Sottotitoli in spagnolo' potrebbe essere l'etichetta di una traccia di sottotitoli spagnolo.",
+                        "description":"Utilizzato se si offrono tracce multiple e l'utente deve sceglierne una. Per esempio, 'Sottotitoli in spagnolo' potrebbe essere l'etichetta di una traccia di sottotitoli in castigliano.",
                         "default":"Sottotitoli"
                       },
                       {
@@ -65,7 +65,7 @@
                         ]
                       },
                       {
-                        "label":"Lingua di origine, deve essere definita per i sottotitoli",
+                        "label":"Lingua di origine (deve essere definita per i sottotitoli)",
                         "default":"en",
                         "description":"Deve essere un tag valido di lingua BCP 47. Se 'Sottotitoli' è il tipo di traccia di testo selezionata, la lingua di origine della traccia deve essere definita."
                       },
@@ -110,10 +110,10 @@
                         "label":"Poster"
                       }
                     ],
-                    "default":"button"
+                    "default":"pulsante"
                   },
                   {
-                    "label":"Turn into button on small screens"
+                    "label":"Trasforma in pulsante su schermi piccoli"
                   },
                   {
                     "label":"Etichetta",
@@ -475,12 +475,12 @@
           "default":"Video in pausa"
         },
         {
-          "label": "Content label",
-          "default": "Content"
+          "label": "Etichetta del contenuto",
+          "default": "Contenuto"
         },
         {
-          "label": "answered",
-          "default": "@answered answered!"
+          "label": "risposta",
+          "default": "@answered risposta!"
         }
       ]
     }
